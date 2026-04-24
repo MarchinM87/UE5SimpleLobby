@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "http://8.166.112.80:5000/api/rooms" -UseBasicParsing | Select-Object -ExpandProperty Content | ConvertFrom-Json
